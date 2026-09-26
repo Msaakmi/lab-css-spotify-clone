@@ -1,8 +1,69 @@
-/*
-Colors:
 
-Text: 1A1A1A
+/*Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White: #FFF*/
 
-*/
+.header {
+
+}
+    .logo{
+
+    }
+    
+    .nav{
+
+    }
+
+.container{
+
+}
+
+    .hero{
+
+    }
+        .title{
+
+        }
+
+        .description{
+
+        }
+
+    .features{
+
+    }
+        .subtitle{
+
+        }
+
+        .features-list{
+
+        }
+            .feature-title{
+
+            }
+
+            .feature-description{
+
+            }
+    .spotify-app{
+
+    }
+        .subtitle{
+
+        }
+
+        .spotify-app-list{
+
+        }
+            .app-feature-title{
+
+            }
+
+            .app-feature-description{
+
+            }
+
+        .app-image{
+
+        }
