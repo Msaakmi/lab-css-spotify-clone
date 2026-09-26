@@ -47,14 +47,27 @@ body {
 }
 
     .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
+        background: url('../images/landing.jpg') no-repeat center center;
+        background-size: cover;
+        height: 70vh;
+        width: 100%;
     }
         .title{
-
+            font-size: 5rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 1rem;
         }
 
         .description{
-
+            font-size: 2rem;
+            font-weight: 300;
+            color: #fff;
         }
 
     .features{
