@@ -126,24 +126,45 @@ body {
                     font-weight: 100;
                 }
     .spotify-app{
-
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        background: #00B172 url("../images/spotify-icon-white.png") no-repeat center center;
+        background-size: 100px auto;
+        margin: 2rem;
         padding: 2rem;
+        color: white
     }
-        .subtitle{
-
+        .spotify-app-text{
+            
         }
 
-        .spotify-app-list{
-
-        }
-            .app-feature-title{
-
+            .spotify-app-subtitle{
+                display: inline-block;
+                font-size: 3rem;
+                font-weight: 700;
+                border-bottom: 3px solid white;
+                margin: 0 20rem 2rem 0;
             }
 
-            .app-feature-description{
-
+            .spotify-app-list{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                padding-right: 40rem;
             }
+                .app-feature-title{
+                    font-size: 1.7rem;
+                    font-weight: 700;
+                    margin-bottom: 1.2rem;
+                }
+
+                .app-feature-description{
+                    margin-bottom: 1.2rem;
+                    font-size: 1.4rem;
+                }
 
         .app-image{
-
+            width: 20rem;
         }
