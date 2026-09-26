@@ -3,19 +3,47 @@
 Green: #00B172
 White: #FFF*/
 
-.header {
+body {
+    font: 16px 'Roboto', Arial, Helvetica;
+}
 
+.header {
+    /* layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    /* box-model */
+    padding: 1rem 1.5rem;
+
+    /* presentation */
+    background: #fff;
 }
     .logo{
-
+        /* box-model */
+        width: 200px;
     }
     
     .nav{
-
+        /* layout */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
     }
 
-.container{
+        .nav a {
+            /* typo */
+            font-size: 20px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 200;
+        }
 
+.container{
+    background: blue;
 }
 
     .hero{
