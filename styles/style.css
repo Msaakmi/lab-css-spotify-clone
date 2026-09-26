@@ -4,6 +4,9 @@ Green: #00B172
 White: #FFF*/
 
 body {
+    /* presentation */
+    background: #fff;
+
     font: 16px 'Roboto', Arial, Helvetica;
 }
 
@@ -16,9 +19,6 @@ body {
 
     /* box-model */
     padding: 1rem 1.5rem;
-
-    /* presentation */
-    background: #fff;
 }
     .logo{
         /* box-model */
@@ -36,14 +36,13 @@ body {
 
         .nav a {
             /* typo */
-            font-size: 20px;
+            font-size: 1.4rem;
             text-decoration: none;
             color: #333;
             font-weight: 200;
         }
 
 .container{
-    background: blue;
 }
 
     .hero{
@@ -58,10 +57,11 @@ body {
         width: 100%;
     }
         .title{
+            margin-bottom: 1rem;
+
             font-size: 5rem;
             font-weight: 700;
             color: #fff;
-            margin-bottom: 1rem;
         }
 
         .description{
@@ -71,24 +71,63 @@ body {
         }
 
     .features{
-
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
     }
         .subtitle{
-
+            padding-bottom: 5px;
+            margin-bottom: 4rem;
+            font-size: 2rem;
+            border-bottom: 4px solid #00B172;
         }
 
         .features-list{
-
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: center;
+            gap: 100px;
+            padding: 0 100px;
         }
-            .feature-title{
 
+            .features-list-item {
+                width: calc(100% / 3);
+                padding-top: 150px;
             }
 
-            .feature-description{
-
+            .ico-music,
+            .ico-high,
+            .ico-devices {
+                background: no-repeat center top;
+                background-size: 150px auto;
             }
+
+                .ico-music {
+                    background-image: url(../images/music-icon.png);
+                }
+                .ico-high {
+                    background-image: url(../images/high-quality-icon.png);
+                }
+                .ico-devices {
+                    background-image: url(../images/devices-icon.png);
+                }
+
+                .feature-title{
+                    font-size: 1.5rem;
+                    font-weight: 900;
+                    color: #00B172;
+                }
+
+                .feature-description{
+                    font-size: 1.4rem;
+                    font-weight: 100;
+                }
     .spotify-app{
 
+        padding: 2rem;
     }
         .subtitle{
 
